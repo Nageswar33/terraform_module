@@ -1,5 +1,5 @@
 module "Nageswar"{
-  source = "../module_terraform/local_module"
+  source = "./terraform_module/local_module"
   instance_type = var.instance_type
  }
 
